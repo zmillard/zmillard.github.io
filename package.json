@@ -1,0 +1,40 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js"
+  },
+  "author": "Zoe Millard",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "1.18.3",
+    "bootstrap": "^4.1.3",
+    "express": "4.16.3",
+    "path": "0.12.7",
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.2",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "reactstrap": "^6.3.1",
+    "typed.js": "^2.0.9"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.22.1",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "3.1.0"
+  }
+}
