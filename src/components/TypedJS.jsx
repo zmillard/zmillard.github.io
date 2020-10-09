@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Typed from 'typed.js';
 
 // https://github.com/mattboldt/typed.js/
