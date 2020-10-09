@@ -93,3 +93,7 @@
 .resume{
   float:left;
 }
+
+.customTextSpacing {
+  padding: 0 0 0 20px;
+}

@@ -5,18 +5,6 @@ import Resume from './Resume';
 import HeaderImage from './HeaderImage';
 import TypedJS from './TypedJS';
 import ReactDOM from 'react-dom';
-// import '../index.scss';
-
-// ReactDOM.render(
-// 	<Typed
-//     strings={[
-//     	'Some <i>strings</i> are slanted',
-//       'Some <strong>strings</strong> are bold',
-//       'HTML characters &times; &copy;'
-//     ]}
-//   />,
-//   document.getElementById('react-root')
-// );
 
 class HomePage extends Component {
   render() {
@@ -56,10 +44,12 @@ class HomePage extends Component {
           <Container fluid>
             <div>
               <h1 className="display-3">Professional Experience:</h1>
-              <p className="lead">I'm currently a Software Engineer with American Express, primarily doing web programming.</p>
-              <p className="lead">In college, I was a member of a cooperative education program. This means that roughly every other semester for five years, I alternated between semesters of work and semesters of study.</p>
-              <p className='lead'>Due to this program, I have had 5 seperate internships within 4 companies in a variety of industries. I was able to supplement the knowledge I gained from the classroom and find ways to be a contributing member of a team.</p>
-              <p className="lead">In addition to the experience listed below, I was also been a TA for a graduate class in the Computer Science Department, and was a student tour guide.</p>
+              <div className="customTextSpacing">
+                <p className="lead">I'm currently a Software Engineer with American Express, primarily doing web programming.</p>
+                <p className="lead">In college, I was a member of a cooperative education program. This means that roughly every other semester for five years, I alternated between semesters of work and semesters of study.</p>
+                <p className='lead'>Due to this program, I have had 5 seperate internships within 4 companies in a variety of industries. I was able to supplement the knowledge I gained from the classroom and find ways to be a contributing member of a team.</p>
+                <p className="lead">In addition to the experience listed below, I was also been a TA for a graduate class in the Computer Science Department, and was a student tour guide.</p>
+              </div> 
             </div>
           </Container>
         </Jumbotron>
@@ -68,7 +58,7 @@ class HomePage extends Component {
           <Container fluid>
             <div>
               <h1 className="display-3">Contact Me:</h1>
-              <p className="lead">Please connect via email, zoe.k.millard@gmail.com, or via linkedIn</p>
+              <p className="lead customTextSpacing">Please reach out via LinkedIn!</p>
             </div>
           </Container>
         </Jumbotron>

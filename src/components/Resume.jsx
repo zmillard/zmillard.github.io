@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Card, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody } from 'reactstrap';
 
 class Resume extends React.Component {
     render() {
@@ -25,9 +25,9 @@ class Resume extends React.Component {
                     <Card>
                         <CardImg top width="100%" className='tile' src='https://web.stevens.edu/news/newspoints/brand-logos/Stevens-Apparel-Color-R.png' alt='Card image cap' />
                         <CardBody>
-                            <CardTitle>Teaching Assistant</CardTitle>
-                            <CardSubtitle>August 2017 - December 2017</CardSubtitle>
-                            <CardText>Worked with JavaScript and Asynchronous Functions</CardText>
+                            <CardTitle>Teaching Assistant for two Graduate level Web Programming classes</CardTitle>
+                            <CardSubtitle>August 2017 - May 2019</CardSubtitle>
+                            <CardText>Worked with JavaScript, React, Sass and Asynchronous Functions</CardText>
                         </CardBody>
                     </Card>
                 </CardDeck>
@@ -51,7 +51,7 @@ class Resume extends React.Component {
                     <Card>
                         <CardImg top width="100%" className='tile' src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Abglobal-logo.png" alt="Card image cap" />
                         <CardBody>
-                            <CardTitle>Web Development Consoltant</CardTitle>
+                            <CardTitle>Web Development Consultant</CardTitle>
                             <CardSubtitle>January 2016 - May 2016</CardSubtitle>
                             <CardText>Worked with HTML, CSS, and XML</CardText>
                         </CardBody>

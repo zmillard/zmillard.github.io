@@ -4,7 +4,6 @@ import { browserHistory } from 'react-router';
 import HomePage from './HomePage';
 import NavBar from './NavBar';
 import Footer from './Footer';
-// import { Button } from 'react-bootstrap';
 
 class App extends Component {
   render() {
