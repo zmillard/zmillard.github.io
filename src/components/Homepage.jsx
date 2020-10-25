@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Jumbotron, Button, Container, Media } from 'reactstrap';
+import { Jumbotron, Container } from 'reactstrap';
 import Deck from './Deck';
-import Resume from './Resume';
 import HeaderImage from './HeaderImage';
 import TypedJS from './TypedJS';
-import ReactDOM from 'react-dom';
+import '../index.scss';
 
 class HomePage extends Component {
   render() {
@@ -25,17 +24,15 @@ class HomePage extends Component {
         </Jumbotron>
         <Jumbotron fluid>
           <Container fluid>
-            <h1 className="display-3" id='aboutMe'>About Me:</h1><Media>
-              <Media left href="#">
-                <Media object className='headshot' src='https://lh3.googleusercontent.com/Ju6jfpl4u72Y_gtyGdmvX1he2BtTXonKF8yEfOq0g_Nrzt1Ot6RhSV5rbn4AByNU8ybMkrhUl-PBeeuQVlAmau33ERDvszxHVXNTIhHXJclr9UkO6NTs0GpYNSoUidX4nDgKaV5mMQ=w2400' alt="Zoe Headshot" />
-              </Media>
-              <Media body>
-                <p>I'm originally from Tappan, NY, a river town about 40 minutes up the Hudson from NYC. I spent few years attending college in Hoboken, and now I am living in Brooklyn.</p>
-                <p>I have a Bachelors of Science in Computer Science from Stevens Institute of Technology, in Hoboken, NJ. While there, I started a Women in Computer Science organization, and was very passionate about volunteering.</p>
-                <p>Since graduating, I've been working as a Software Engineer, doing web programming. I've also been able to find ways to continute my passion for volunteering and promoting women in Computer Science.</p>
-                <p>Some additional interests include skiing and traveling. Scroll down to see some of what I've done!</p>
-              </Media>
-            </Media>
+            <h1 className="display-3" id='aboutMe'>About Me:</h1>
+            <div className='headshotContainer'>
+              <img className='headshot' src='https://lh3.googleusercontent.com/Ju6jfpl4u72Y_gtyGdmvX1he2BtTXonKF8yEfOq0g_Nrzt1Ot6RhSV5rbn4AByNU8ybMkrhUl-PBeeuQVlAmau33ERDvszxHVXNTIhHXJclr9UkO6NTs0GpYNSoUidX4nDgKaV5mMQ=w2400' alt="Zoe Headshot" />
+            </div>
+            <div className='aboutMeBody'>
+              <p>I have a BS in Computer Science from Stevens Institute of Technology. While there, I started a Women in Computer Science organization, and was very passionate about volunteering. <br /> <br />
+                Since graduating, I've been working as a Software Engineer, doing web programming. I've also been able to find ways to continue my passion for volunteering and promoting women in Computer Science.
+                Some additional interests include skiing and traveling.</p>
+            </div>
           </Container>
         </Jumbotron>
         < Deck />
@@ -44,21 +41,9 @@ class HomePage extends Component {
           <Container fluid>
             <div>
               <h1 className="display-3">Professional Experience:</h1>
-              <div className="customTextSpacing">
-                <p className="lead">I'm currently a Software Engineer with American Express, primarily doing web programming.</p>
-                <p className="lead">In college, I was a member of a cooperative education program. This means that roughly every other semester for five years, I alternated between semesters of work and semesters of study.</p>
-                <p className='lead'>Due to this program, I have had 5 seperate internships within 4 companies in a variety of industries. I was able to supplement the knowledge I gained from the classroom and find ways to be a contributing member of a team.</p>
-                <p className="lead">In addition to the experience listed below, I was also been a TA for a graduate class in the Computer Science Department, and was a student tour guide.</p>
+              <div className="largeText">
+                <p>I'm a Software Engineer at American Express working in web programming.</p>
               </div> 
-            </div>
-          </Container>
-        </Jumbotron>
-        < Resume />
-        <Jumbotron fluid>
-          <Container fluid>
-            <div>
-              <h1 className="display-3">Contact Me:</h1>
-              <p className="lead customTextSpacing">Please reach out via LinkedIn!</p>
             </div>
           </Container>
         </Jumbotron>

@@ -1,0 +1,26 @@
+.mx-auto {
+    top: 400px;
+}
+
+.largeText {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.aboutMeBody {
+    font-size: 30px;
+    padding: 30px 0 0 20px;
+}
+
+.headshotContainer{
+    float: left;
+    padding: 20px;
+}
+
+.sticky{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
