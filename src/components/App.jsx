@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import { browserHistory } from 'react-router';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomePage from './HomePage';
 import NavBar from './NavBar';
 import Footer from './Footer';

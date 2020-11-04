@@ -11,16 +11,16 @@ class HomePage extends Component {
       <div>
         <HeaderImage />
         <Jumbotron className='firstJumbo'>
-            <h1 className="display-3">My name is Zoë Millard.</h1>
-            <hr className="my-2" />
-            <TypedJS
-              strings={[
-                'I am a Software Engineer.',
-                'I am a skiier.',
-                'I am a developer.',
-                'I am excited to learn new things.'
-              ]}
-            />
+          <h1 className="display-3">My name is Zoë Millard.</h1>
+          <hr className="my-2" />
+          <TypedJS
+            strings={[
+              'I am a Software Engineer.',
+              'I am a skiier.',
+              'I am a developer.',
+              'I am excited to learn new things.'
+            ]}
+          />
         </Jumbotron>
         <Jumbotron fluid>
           <Container fluid>
@@ -43,7 +43,7 @@ class HomePage extends Component {
               <h1 className="display-3">Professional Experience:</h1>
               <div className="largeText">
                 <p>I'm a Software Engineer at American Express working in web programming.</p>
-              </div> 
+              </div>
             </div>
           </Container>
         </Jumbotron>

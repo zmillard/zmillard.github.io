@@ -21,7 +21,7 @@ class NavBar extends Component {
     return (
       <header className='sticky'>
         <Navbar color="faded" light>
-        <h1>Zoë Millard // zmillard.github.io</h1>
+          <h1>Zoë Millard // zmillard.github.io</h1>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>

@@ -12,8 +12,8 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx', '.css']
   },
-  module : {
-    rules : [
+  module: {
+    rules: [
       {
         test: /\.scss$/,
         use: [
@@ -31,12 +31,12 @@ module.exports = {
         loader: 'file-loader'
       },
       {
-        test : /\.jsx?/,
-        include : SRC_DIR,
-        loader : 'babel-loader',      
+        test: /\.jsx?/,
+        include: SRC_DIR,
+        loader: 'babel-loader',
         query: {
           presets: ['react', 'es2015']
-       }
+        }
       }
     ]
   },
