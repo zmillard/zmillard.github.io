@@ -7,6 +7,12 @@
     padding: 20px;
 }
 
+.aboutMe{
+    float: right;
+    width: 70%;
+    padding: 10px;
+}
+
 .aboutMeBody {
     font-size: 30px;
     padding: 30px 0 0 20px;
@@ -23,4 +29,48 @@
     top: 0;
     background-color: white;
     z-index: 1;
+}
+
+.linkIcon{
+    height: 50px;
+    width: 50px;
+    margin: 0 20px 20px 20px;
+}
+
+.linkTxt{
+    padding: 20px;
+    float:right;
+}
+
+.headshot{
+    max-height: 300px;
+    margin: 0 30px 0 30px;
+    border-radius: 50%;
+}
+.slide{
+    display:block;
+    margin:auto;
+    max-height:700px;
+}
+
+.container-fluid .display-3{
+    padding: 0 0 0 20px;
+}
+
+.mainImg1{
+    max-width: 100%;
+    max-height: 840px;
+    overflow: hidden;
+}
+
+.initJumbotron{
+    margin: 30px 0 0 0;
+}
+
+.firstJumbo{
+    background-color: white !important;
+}
+
+.carousel{
+    max-width:70%;
 }

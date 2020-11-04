@@ -1,7 +1,7 @@
 const path = require('path');
+const webpack = require('webpack');
 const SRC_DIR = path.join(__dirname, '/src');
 const DIST_DIR = path.join(__dirname, '/build');
-const webpack = require('webpack');
 
 module.exports = {
   entry: `${SRC_DIR}/index.jsx`,
@@ -10,7 +10,7 @@ module.exports = {
     filename: 'bundle.js',
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.json', '.css']
+    extensions: ['.js', '.jsx', '.css']
   },
   module : {
     rules : [
@@ -40,9 +40,4 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify('production')
-    })
-  ]
 };
