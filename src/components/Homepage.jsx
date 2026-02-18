@@ -30,7 +30,7 @@ class HomePage extends Component {
             </div>
             <div className='aboutMeBody'>
               <p>I have a BS in Computer Science from Stevens Institute of Technology. While there, I started a Women in Computer Science organization, and was very passionate about volunteering. <br /> <br />
-                Since graduating, I've been working as a Software Engineer, doing web programming. I've also been able to find ways to continue my passion for volunteering and promoting women in Computer Science.
+                Since graduating, I've been working as a Software Engineer, doing web programming and more recently mobile engineering. I've also been able to find ways to continue my passion for volunteering and promoting women in Computer Science.
                 Some additional interests include skiing and traveling.</p>
             </div>
           </Container>
@@ -42,7 +42,8 @@ class HomePage extends Component {
             <div>
               <h1 className="display-3">Professional Experience:</h1>
               <div className="largeText">
-                <p>I'm a Software Engineer at American Express working in web programming.</p>
+                <p>Software Engineer at American Express working in React and Typescript.</p>
+                <p>Mobile Engineer at Gemini working in ReactNative and Typescript.</p>
               </div>
             </div>
           </Container>

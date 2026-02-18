@@ -3,7 +3,7 @@
 }
 
 .largeText {
-  font-size: 40px;
+  font-size: 20px;
   padding: 20px;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .aboutMeBody {
-  font-size: 30px;
+  font-size: 20px;
   padding: 30px 0 0 20px;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .headshot {
-  max-height: 300px;
+  max-height: 200px;
   margin: 0 30px 0 30px;
   border-radius: 50%;
 }
@@ -69,4 +69,8 @@
 
 .firstJumbo {
   background-color: white !important;
+}
+
+.display-3 {
+  font-size: 30px;
 }

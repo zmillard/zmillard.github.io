@@ -104,7 +104,7 @@ class Deck extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} class='slide'/>
+          <img src={item.src} alt={item.altText} class='slide' />
           <CarouselCaption captionText={item.caption} captionHeader={item.header} />
         </CarouselItem>
       );
